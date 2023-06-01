@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARscene.unity
     guid: 0d4cfb1ec90abd2478cc04b142f5cf1b
+  - enabled: 1
+    path: Assets/Scenes/CarScene.unity
+    guid: 93756b2b282389c4d9360ff74310fb30
   m_configObjects: {}
