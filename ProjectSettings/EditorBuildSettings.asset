@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/resources/resources.unity
     guid: 3a5960406d545a349b22933b1ee52550
   - enabled: 1
-    path: Assets/Scenes/ARscene.unity
+    path: Assets/Scenes/resources/res inside/tools/viewtool.unity
     guid: 0d4cfb1ec90abd2478cc04b142f5cf1b
   - enabled: 1
     path: Assets/Scenes/CarScene.unity
@@ -30,9 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/resources/res inside/mobs/mobpass.unity
     guid: 848406c0654167d48a8995c7f7c20f7c
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/mobboss.unity
+    path: Assets/Scenes/resources/res inside/mobs/boss/mobboss.unity
     guid: 04584330d9b807a439537c3a8ff20c5d
   - enabled: 1
     path: Assets/Scenes/resources/res inside/mobs/mobneu.unity
     guid: 8a7fc9f81943cff4d8f7bcce74acc823
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/mobs/mobhost.unity
+    guid: ac1aa28f30989fa4fb94353115fc7229
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/mobs/boss/bosses.unity
+    guid: 62fd68677bb9d554386cdb8f8ddc856b
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/tools/tool.unity
+    guid: 31320ac2342f23d43bb1e9eeb5b44874
   m_configObjects: {}

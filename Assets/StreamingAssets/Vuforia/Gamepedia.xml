@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="wither" size="6.000000 6.000000" />
+    <ImageTarget name="images" size="6.000000 3.364865" />
     <ImageTarget name="axe" size="6.000000 5.925000" />
     <ImageTarget name="pickaxe" size="6.000000 6.000000" />
     <ImageTarget name="sword1" size="6.000000 3.375000" />
