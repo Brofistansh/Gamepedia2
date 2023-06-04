@@ -9,9 +9,9 @@ public class SceneChange : MonoBehaviour
    {
     SceneManager.LoadScene("MainMenu");
    }
-   public void CarScene()
+   public void maincar()
    {
-        SceneManager.LoadScene("CarScene");
+        SceneManager.LoadScene("maincar");
 
    }
 }

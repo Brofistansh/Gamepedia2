@@ -12,45 +12,48 @@ EditorBuildSettings:
     path: Assets/Scenes/resources/resources.unity
     guid: 3a5960406d545a349b22933b1ee52550
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/tools/viewtool.unity
+    path: Assets/Scenes/res inside/tools/viewtool.unity
     guid: 0d4cfb1ec90abd2478cc04b142f5cf1b
   - enabled: 1
     path: Assets/Scenes/CarScene.unity
     guid: 93756b2b282389c4d9360ff74310fb30
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/ore/ore.unity
+    path: Assets/Scenes/res inside/ore/ore.unity
     guid: 65cde66e6105d0642ad03101dcd25643
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/ore/Diamond.unity
+    path: Assets/Scenes/res inside/ore/Diamond.unity
     guid: d1ce58d359fdb4e4da1224fa21ea1d5e
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/mob.unity
+    path: Assets/Scenes/res inside/mobs/mob.unity
     guid: 11af8ce922421c84e9862eeee77ac600
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/passi/mobpass.unity
+    path: Assets/Scenes/res inside/mobs/passi/mobpass.unity
     guid: 848406c0654167d48a8995c7f7c20f7c
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/boss/mobboss.unity
+    path: Assets/Scenes/res inside/mobs/boss/mobboss.unity
     guid: 04584330d9b807a439537c3a8ff20c5d
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/mobneu.unity
+    path: Assets/Scenes/res inside/mobs/mobneu.unity
     guid: 8a7fc9f81943cff4d8f7bcce74acc823
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/mobhost.unity
+    path: Assets/Scenes/res inside/mobs/mobhost.unity
     guid: ac1aa28f30989fa4fb94353115fc7229
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/boss/bosses.unity
+    path: Assets/Scenes/res inside/mobs/boss/bosses.unity
     guid: 62fd68677bb9d554386cdb8f8ddc856b
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/tools/tool.unity
+    path: Assets/Scenes/res inside/tools/tool.unity
     guid: 31320ac2342f23d43bb1e9eeb5b44874
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/crops/crops.unity
+    path: Assets/Scenes/res inside/crops/crops.unity
     guid: 31e1efa50d1775d4d98e0a37201eeefd
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/passi/pas.unity
+    path: Assets/Scenes/res inside/mobs/passi/pas.unity
     guid: 310632cb68d587b48bbb38c33edf335e
-  - enabled: 1
-    path: Assets/Scenes/resources/res inside/ore/view.unity
+  - enabled: 0
+    path: Assets/Scenes/res inside/ore/view.unity
     guid: b31830bb8de5d2641970654626f1c8a8
+  - enabled: 1
+    path: Assets/Scenes/maincar.unity
+    guid: 6039fa3bcbd71924b8cbcf3af8141a84
   m_configObjects: {}
