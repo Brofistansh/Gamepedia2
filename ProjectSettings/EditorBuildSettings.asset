@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/resources/res inside/mobs/mob.unity
     guid: 11af8ce922421c84e9862eeee77ac600
   - enabled: 1
-    path: Assets/Scenes/resources/res inside/mobs/mobpass.unity
+    path: Assets/Scenes/resources/res inside/mobs/passi/mobpass.unity
     guid: 848406c0654167d48a8995c7f7c20f7c
   - enabled: 1
     path: Assets/Scenes/resources/res inside/mobs/boss/mobboss.unity
