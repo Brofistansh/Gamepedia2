@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/resources/res inside/mobs/passi/pas.unity
     guid: 310632cb68d587b48bbb38c33edf335e
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/ore/view.unity
+    guid: b31830bb8de5d2641970654626f1c8a8
   m_configObjects: {}
