@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/resources/res inside/tools/tool.unity
     guid: 31320ac2342f23d43bb1e9eeb5b44874
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/crops/crops.unity
+    guid: 31e1efa50d1775d4d98e0a37201eeefd
   m_configObjects: {}

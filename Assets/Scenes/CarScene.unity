@@ -545,33 +545,14 @@ GameObject:
   - component: {fileID: 1336793842}
   - component: {fileID: 1336793841}
   - component: {fileID: 1336793840}
-  - component: {fileID: 1336793839}
+  - component: {fileID: 1336793843}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: dream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1336793839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1336793838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1336793841}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: dream1
-  mDatasetName: Vuforia/Gamepedia.xml
-  mCastedBehaviour: {fileID: 1336793841}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1336793840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 0
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -642,7 +623,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1336793839}
+  mPreview: {fileID: 1336793843}
 --- !u!4 &1336793842
 Transform:
   m_ObjectHideFlags: 0
@@ -659,6 +640,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1336793843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336793838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1336793841}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: dream1
+  mDatasetName: Vuforia/Gamepedia.xml
+  mCastedBehaviour: {fileID: 1336793841}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1499746759
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ RectTransform:
   m_GameObject: {fileID: 1499746759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1164138, y: 1.1164138, z: 1.1164138}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 343279487}
@@ -886,6 +886,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1915600647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2073092113}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.447706
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.447706
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9.447704
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03999996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.008574971
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008574833
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7070549
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.70705473
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 178.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+      propertyPath: m_Name
+      value: steve (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+--- !u!4 &1915600648 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f6d3a1af50ce3c4888239493b8638d9, type: 3}
+  m_PrefabInstance: {fileID: 1915600647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2013017181
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,3 +1004,128 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6d922db8cb6a8499aa18805648b93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2073092109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073092113}
+  - component: {fileID: 2073092112}
+  - component: {fileID: 2073092111}
+  - component: {fileID: 2073092114}
+  m_Layer: 0
+  m_Name: steve
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2073092111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073092109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 0
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2073092112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073092109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: alex
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/Gamepedia.xml
+  mAspectRatio: 0.5625
+  mImageTargetType: 0
+  mWidth: 6
+  mHeight: 3.375
+  mRuntimeTexture: {fileID: 0}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mPreview: {fileID: 2073092114}
+--- !u!4 &2073092113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073092109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.83, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1915600648}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073092114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073092109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2073092112}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: alex
+  mDatasetName: Vuforia/Gamepedia.xml
+  mCastedBehaviour: {fileID: 2073092112}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
