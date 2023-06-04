@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="alex" size="6.000000 3.375000" />
+    <ImageTarget name="stec" size="6.000000 6.000000" />
+    <ImageTarget name="dream1" size="6.000000 6.676056" />
     <ImageTarget name="wither" size="6.000000 6.000000" />
     <ImageTarget name="images" size="6.000000 3.364865" />
     <ImageTarget name="axe" size="6.000000 5.925000" />
