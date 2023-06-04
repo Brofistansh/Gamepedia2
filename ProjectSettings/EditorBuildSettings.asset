@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/resources/res inside/ore/ore.unity
     guid: 65cde66e6105d0642ad03101dcd25643
   - enabled: 1
-    path: Assets/Scenes/Diamond.unity
+    path: Assets/Scenes/resources/res inside/ore/Diamond.unity
     guid: d1ce58d359fdb4e4da1224fa21ea1d5e
   - enabled: 1
     path: Assets/Scenes/resources/res inside/mobs/mob.unity
@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/resources/res inside/crops/crops.unity
     guid: 31e1efa50d1775d4d98e0a37201eeefd
+  - enabled: 1
+    path: Assets/Scenes/resources/res inside/mobs/passi/pas.unity
+    guid: 310632cb68d587b48bbb38c33edf335e
   m_configObjects: {}

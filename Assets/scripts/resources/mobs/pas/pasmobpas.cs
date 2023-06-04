@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class pasmobpas : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void pas()
+   {
+    SceneManager.LoadScene("pas");
+   }
+   public void mobpass()
+   {
+        SceneManager.LoadScene("mobpass");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   }
 }
